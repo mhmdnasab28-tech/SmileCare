@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(219, 239, 252);
+    color: #333;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color : #007bff;
+    font-weight: bold;
+    
+}
+a:hover {
+    color: #0056b3;
+}
+.Services-Header {
+    padding: 2ch;
+    text-align: center;
+}
+#OurDentalServices {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(45, 161, 199);
+    
+}
+#dental-services-description {
+    font-size: 1.2em;
+    color: #0650db;
+    max-width: 450px;
+    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.Container {
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    padding: 22px;
+    
+
+}
+.service {
+    background-color:#0650db;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+#img1{
+    width: 220px;
+    height: 170px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 12px;
+  
+}
+.choosing{
+   display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    color:#0650db;
+    padding: 30px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+.asking {
+   color: rgb(45, 161, 199);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+   
+}
+.call-to-action {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+    color:#0650db;
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#action {
+    color: rgb(45, 161, 199);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.appointment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #0650db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appointment:hover {
+    color: #0056b3;
+}
+.Our-Dentists #dentisttitle {
+     padding: 2ch;
+    text-align: center;
+    color: rgb(45, 161, 199);
+    font-size: 2em;
+    
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#dentist-subtitle {
+    
+    text-align: center;
+    color: #5283de;
+    font-size: 1.5em;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#dentist-bio {
+    text-align: center;
+    color: #0650db;
+    font-size: 1.2em;
+    width: 450px;
+    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.dentist-profile {
+    display: flex;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.dentist {
+   
+    background-color: #0650db;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+#img2{
+    width: 140px;
+    height: 150px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.dentist-title{
+    position: relative;
+    color: darkblue;
+    background-color: rgb(219, 239, 252);
+    padding: 5px;
+    border-radius: 50px;
+font-weight: bold;
+}
+.Our-Mission{
+     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+    color:#0650db;
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: 450px;
+}
+#mission{
+    color: rgb(45, 161, 199);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.Our-Promise{
+     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+    color:#0650db;
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: 450px;
+}
+#promise{
+    color: rgb(45, 161, 199);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
