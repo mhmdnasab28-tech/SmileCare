@@ -335,3 +335,129 @@ html{
 .about-button:hover {
     background-color: #0056b3;
 }
+
+/*rama's part*/
+
+.Book-Appointment, .Contact-Us {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    color: #333;
+}
+
+#appointment-title, #contact-title {
+    text-align: center;
+    color: rgb(45, 161, 199);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#appointment-description, #contact-description {
+    text-align: center;
+    color: #0650db;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.appointment-form,
+.contact-form {
+    background-color: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #0650db;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #0650db;
+}
+
+.appointment-form .appointment,
+.contact-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0650db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form .appointment:hover,
+.contact-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 260px;
+    background-color: #0650db;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact-info h3 {
+    color: rgb(219, 239, 252);
+    margin-bottom: 15px;
+}
+
+.contact-form h3 {
+    color: rgb(45, 161, 199);
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: rgb(219, 239, 252);
+    text-decoration: underline;
+}
+
+.contact-info a:hover {
+    color: white;
+}
+
+.contact-form {
+    flex: 1.5;
+    min-width: 280px;
+}
