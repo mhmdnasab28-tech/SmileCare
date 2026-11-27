@@ -234,7 +234,7 @@ html{
 /* HOME SECTION */
 
 .home-section {
-    background-color: #e7f4ff;
+    background-color: rgb(219, 239, 252);
     text-align: center;
     padding: 50px 20px;
 }
@@ -274,10 +274,13 @@ html{
 
 /* ABOUT SECTION */
 
+
 .about-section {
-    background-color: white;
+    background-color: rgb(219, 239, 252);
     padding: 50px 20px;
 }
+
+
 
 .about-section h2 {
     text-align: center;
